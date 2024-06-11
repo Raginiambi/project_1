@@ -74,10 +74,10 @@ restart_btn.addEventListener("click",()=>{
 
 })
  } else if(user_score == 10){
-    p.innerText ="Hurree..You win!"
+    p.innerHTML ="<h2>Hurree..You win!</h2>"
         p.style.width = "380px"
         p.style.height = "50px";
-        p.style.fontSize = "42px";
+        
 
 
     restart_btn.addEventListener("click",()=>{
