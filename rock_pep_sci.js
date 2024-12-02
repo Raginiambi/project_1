@@ -69,7 +69,8 @@ restart_btn.addEventListener("click",()=>{
        p.style.backgroundColor = "blue";
        p.style.color = "white"
        p.style.height = "50px";
-       p.style.width = "230px"
+       p.style.width = "230px";
+    
       
 
 })
@@ -77,6 +78,12 @@ restart_btn.addEventListener("click",()=>{
     p.innerHTML ="<h2>Hurree..You win!</h2>"
         p.style.width = "380px"
         p.style.height = "50px";
+        user_score = 0;
+        comp_score = 0;
+        user.innerText = "0";
+        comp.innerText="0";
+     
+     
         
 
 
@@ -86,6 +93,8 @@ restart_btn.addEventListener("click",()=>{
         p.innerText = "Start Again"
         p.style.backgroundColor = "blue";
         p.style.color = "white";
+        user_score = 0;
+        comp_score = 0;
        })
 }
 }
